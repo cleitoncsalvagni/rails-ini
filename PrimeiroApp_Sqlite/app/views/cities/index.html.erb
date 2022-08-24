@@ -1,13 +1,17 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Cities</h1>
+<h1>Cidades</h1>
+
+<%= Date.today %>
+<%= Date.today.strftime('%d /%m /%Y') %>
+<%= br_date(Date.today) %>
 
 <table>
   <thead>
     <tr>
-      <th>Desgription</th>
-      <th>Code</th>
-      <th>Image</th>
+      <th>Descrição</th>
+      <th>CEP</th>
+      <th>Imagem</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -17,10 +21,11 @@
       <tr>
         <td><%= city.desgription %></td>
         <td><%= city.code %></td>
-        <td><%= city.image %></td>
-        <td><%= link_to 'Show', city %></td>
-        <td><%= link_to 'Edit', edit_city_path(city) %></td>
-        <td><%= link_to 'Destroy', city, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <%# <td><%= image_tag city.image, width: 200, height: 100 %></td>  %>
+        <td><%= image_tag city.image, size: "200x100" %></td> 
+        <td><%= link_to 'Mostrar', city %></td>
+        <td><%= link_to 'Editar', edit_city_path(city) %></td>
+        <td><%= link_to 'Excluir', city, method: :delete, data: { confirm: 'Confirma exclusão?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -28,4 +33,4 @@
 
 <br>
 
-<%= link_to 'New City', new_city_path %>
+<%= link_to 'Nova Cidade', new_city_path %>
