@@ -6,17 +6,17 @@
 
 ### Localizar a pasta vagrant:
 	$ cd.. / cd..  | Voltar para a pasta raiz
-	$ cd Vagrant | Acessar a pasta do vagrant
+	$ cd Vagrant   | Acessar a pasta do vagrant
 	$ rails _5.2_ new PROJETO | Criar um projeto Rails
-	$ cd PROJETO | Entrar no projeto Rails
+	$ cd PROJETO   | Entrar no projeto Rails
 
 ### Criação de tabela via Scaffold:
 	$ rails g scaffold City description:string code:integer image
 ### Interface de banco de dados:
 	$ rails db
 	$ rails dbconsole
-		.tables | Ver tabelas
-		 .quit | Sair da interface
+	  .tables      | Ver tabelas
+	  .quit        | Sair da interface
 
 ### Visualizar tasks em aberto:
 	$ rails -T
