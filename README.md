@@ -1,4 +1,10 @@
-<i class="devicon-ruby-plain colored"></i>
+<div>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-plain-wordmark.svg" height=100 width=100 />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-plain-wordmark.svg" height=100 width=100 />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-plain.svg" height=100 width=100/>
+          
+</div>       
+          
 
 ### Comandos realizados em aula.
 
