@@ -1,3 +1,5 @@
+<i class="devicon-ruby-plain colored"></i>
+
 ### Comandos realizados em aula.
 
 ### Vagrant: 
