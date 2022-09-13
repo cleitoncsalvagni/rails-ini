@@ -1,5 +1,9 @@
 {
   "name": "PrimeiroApp_Sqlite",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Cleiton <cleiton_salvagni@estudante.sc.senai.br>",
+  "license": "MIT"
 }
