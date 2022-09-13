@@ -10,6 +10,8 @@
   </head>
 
   <body>
+  <p><%= link_to 'English', '/?locale=en' %> </p>
+  <p><%= link_to 'Portugues', root_path(locale: "pt-BR") %> </p>
     <%= yield %>
   </body>
 </html>
